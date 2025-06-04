@@ -1,0 +1,83 @@
+#butao-gerar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #E0FFFF; /* Green */
+  border-radius: 30px;
+  border: 2px solid black; /* Green border */
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#butao-gerar:hover {
+  background-color: #48D1CC; /* Darker green on hover */
+}
+
+#name{
+    background-color: #E0FFFF;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#name:focus {
+    border-color: white; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+#name:hover {
+    background-color: #48D1CC; /* Darker green on hover */
+}
+
+#height {
+    background-color: #E0FFFF;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#height:focus {
+    border-color: white; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+#height:hover {
+    background-color: #48D1CC; /* Darker green on hover */
+}
+
+#width {
+    background-color: #E0FFFF;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#width:focus {
+    border-color: white; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+#width:hover {
+    background-color: #48D1CC; /* Darker green on hover */
+}
+
+body{
+    background-color: #AFEEEE;
+}
+
+canvas{
+    background-color: white;
+}

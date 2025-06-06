@@ -1,6 +1,6 @@
 #butao-gerar {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #E0FFFF; /* color */
+  background-color: #dcdcdc; /* color */
   border-radius: 30px;
   border: 2px solid black; /* Black Border */
   color: black;
@@ -14,11 +14,11 @@
 }
 
 #butao-gerar:hover {
-  background-color: #48D1CC; /* no comment */
+  background-color: #C0C0C0; /* no comment */
 }
 
 #name{
-    background-color: #E0FFFF;
+    background-color: #dcdcdc;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 30%;
@@ -33,11 +33,11 @@
     outline: none; /* Remove default outline */
 }
 #name:hover {
-    background-color: #48D1CC; /* hover */
+    background-color: #C0C0C0; /* hover */
 }
 
 #height {
-    background-color: #E0FFFF;
+    background-color: #dcdcdc;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 15%;
@@ -52,11 +52,11 @@
     outline: none; /* Remove default outline */
 }
 #height:hover {
-    background-color: #48D1CC; /* no comment */
+    background-color: #C0C0C0; /* no comment */
 }
 
 #width {
-    background-color: #E0FFFF;
+    background-color: #dcdcdc;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 15%;
@@ -71,11 +71,11 @@
     outline: none; /* Remove default outline */
 }
 #width:hover {
-    background-color: #48D1CC; /* hover */
+    background-color: #C0C0C0; /* hover */
 }
 
 body{
-    background-color: #AFEEEE;
+    background-color: #808080;
 }
 
 canvas{

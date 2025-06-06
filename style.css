@@ -1,8 +1,8 @@
 #butao-gerar {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #E0FFFF; /* Green */
+  background-color: #E0FFFF; /* color */
   border-radius: 30px;
-  border: 2px solid black; /* Green border */
+  border: 2px solid black; /* Black Border */
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 #butao-gerar:hover {
-  background-color: #48D1CC; /* Darker green on hover */
+  background-color: #48D1CC; /* no comment */
 }
 
 #name{
@@ -29,11 +29,11 @@
     border-radius: 20px;
 }
 #name:focus {
-    border-color: white; /* Green border on focus */
+    border-color: white; /* on focus */
     outline: none; /* Remove default outline */
 }
 #name:hover {
-    background-color: #48D1CC; /* Darker green on hover */
+    background-color: #48D1CC; /* hover */
 }
 
 #height {
@@ -48,11 +48,11 @@
     border-radius: 20px;
 }
 #height:focus {
-    border-color: white; /* Green border on focus */
+    border-color: white; /* focus */
     outline: none; /* Remove default outline */
 }
 #height:hover {
-    background-color: #48D1CC; /* Darker green on hover */
+    background-color: #48D1CC; /* no comment */
 }
 
 #width {
@@ -67,11 +67,11 @@
     border-radius: 20px;
 }
 #width:focus {
-    border-color: white; /* Green border on focus */
+    border-color: white; /* focus */
     outline: none; /* Remove default outline */
 }
 #width:hover {
-    background-color: #48D1CC; /* Darker green on hover */
+    background-color: #48D1CC; /* hover */
 }
 
 body{

@@ -1,4 +1,4 @@
-function gerarMapa() {
+function inicializadorArray() {
     var largura = document.getElementById('width').value;
     var altura = document.getElementById('height').value;
 
@@ -28,17 +28,9 @@ function gerarMapa() {
     }
 }
 
-var canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
-ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
-
-largura = 5;
-altura = 5;
-canvas.width = largura * 100;
-canvas.height = altura * 100;
 mapa = [];
 
-function inicializadorArray(){
+function inicializadorArray(largura, altura){
 for ( var x = 0; x < largura; x++){
     mapa [x] = [];
     for(var y = 0; y < altura; j++)

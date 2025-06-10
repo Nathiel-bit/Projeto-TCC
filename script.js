@@ -1,6 +1,8 @@
-function inicializadorArray() {
+function gerarMapa(){
     var largura = document.getElementById('width').value;
     var altura = document.getElementById('height').value;
+
+    inicializadorArray(largura, altura);
 
     if (largura <= 0 || altura <= 0) {
         alert("Largura e altura devem ser maiores que zero.");

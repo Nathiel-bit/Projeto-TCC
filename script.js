@@ -35,7 +35,7 @@ mapa = [];
 function inicializadorArray(largura, altura){
 for ( var x = 0; x < largura; x++){
     mapa [x] = [];
-    for(var y = 0; y < altura; j++)
+    for(var y = 0; y < altura; y++)
         mapa[x].push = ( "vazio");
     }
 }

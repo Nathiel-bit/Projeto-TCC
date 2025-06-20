@@ -1,4 +1,4 @@
-#butao-gerar {
+#botao-gerar {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #dcdcdc; /* color */
   border-radius: 30px;
@@ -13,7 +13,7 @@
   cursor: pointer;
 }
 
-#butao-gerar:hover {
+#botao-gerar:hover {
   background-color: #C0C0C0; /* no comment */
 }
 

@@ -3,3 +3,40 @@
         <button onclick="salvarMapa()" id="botao-salvar">Salvar Mapa</button>
         <p></p>
         <button onclick="limparMapa()" id="botao-limpar">Limpar Mapa</button>
+
+
+/* Carrega a imagem do gato e desenha no canvas
+let fots=new Image();
+fots.src = 'images/gato.jpg';
+fots.addEventListener('load', function() {
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d')
+    ctx.drawImage(fots, 100, 0, 100, 100);
+});
+
+
+
+let posX = 0;
+let posY = 0;
+window.addEventListener('keydown', function(event) {
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+    // Limpa o canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Verifica a tecla pressionada
+    if (event.key === 'ArrowUp') {
+        posY -= 10;
+    } else if (event.key === 'ArrowDown') {
+        posY += 10;
+    } else if (event.key === 'ArrowLeft') {
+        posX -= 10;
+    } else if (event.key === 'ArrowRight') {
+        posX += 10;
+    }
+
+    // Desenha o retângulo na nova posição
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(posX, posY, 50, 50);
+});

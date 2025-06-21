@@ -1,0 +1,5 @@
+ <center>
+    <div>
+        <button onclick="salvarMapa()" id="botao-salvar">Salvar Mapa</button>
+        <p></p>
+        <button onclick="limparMapa()" id="botao-limpar">Limpar Mapa</button>

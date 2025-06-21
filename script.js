@@ -50,5 +50,14 @@ for(var x = 0; x < largura; x++){
  }
 }
 
+// Carrega a imagem do avião e desenha no canvas
+let aviao=new Image();
+aviao.src = 'images/Sem título.jpg';
+aviao.addEventListener('load', function() {
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d')
+    ctx.drawImage(aviao, 0, 0, 100, 100);
+});
+
 //inicializadorArray();
 //printMapa();

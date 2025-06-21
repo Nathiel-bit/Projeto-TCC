@@ -50,6 +50,17 @@ for(var x = 0; x < largura; x++){
  }
 }
 
+/*function salvarMapa(){
+    var canvas = document.getElementById('canvas');
+    var dataURL = canvas.toDataURL('image/png');
+    var link = document.createElement('a');
+    link.href = dataURL;
+    link.download = 'mapa.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}*/
+
 
 // Carrega a imagem do avião e desenha no canvas
 let cubos=new Image();

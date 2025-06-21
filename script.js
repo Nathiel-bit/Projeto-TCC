@@ -50,6 +50,23 @@ for(var x = 0; x < largura; x++){
  }
 }
 
+/*window.addEventListener('mousedown', function(event) {
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+    var rect = canvas.getBoundingClientRect();
+    var x = event.clientX - rect.left;
+    var y = event.clientY - rect.top;
+
+    // Calcula a posição do cubo baseado no clique
+    var posX = Math.floor(x / 100) * 100;
+    var posY = Math.floor(y / 100) * 100;
+
+    // Desenha o cubo na posição calculada
+    ctx.drawImage(cubos, 0, 0, 100, 100, posX, posY, 100, 100);
+});*/
+
+// Função para salvar o mapa como imagem (desativada por enquanto)
+
 /*function salvarMapa(){
     var canvas = document.getElementById('canvas');
     var dataURL = canvas.toDataURL('image/png');
@@ -62,7 +79,6 @@ for(var x = 0; x < largura; x++){
 }*/
 
 
-// Carrega a imagem do avião e desenha no canvas
 let cubos=new Image();
 cubos.src = 'images/cubos.jpg';
 cubos.addEventListener('load', function() {

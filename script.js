@@ -50,6 +50,7 @@ for(var x = 0; x < largura; x++){
  }
 }
 
+// Função para desenhar o cubo no canvas
 /*window.addEventListener('mousedown', function(event) {
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
@@ -65,25 +66,32 @@ for(var x = 0; x < largura; x++){
     ctx.drawImage(cubos, 0, 0, 100, 100, posX, posY, 100, 100);
 });*/
 
-// Função para salvar o mapa como imagem (desativada por enquanto)
 
-/*function salvarMapa(){
+// Função para salvar o mapa em PDF
+function salvarPDF() {
     var canvas = document.getElementById('canvas');
-    var dataURL = canvas.toDataURL('image/png');
+    var imgData = canvas.toDataURL('image/png');
+
+    var pdf = new jsPDF('l', 'mm', 'a4');
+    pdf.addImage(imgData, 'PNG', 10, 10, 280, 200);
+    pdf.save('mapa.pdf');
+}
+
+//Salvar em imagem
+function salvarMapa() {
+    var canvas = document.getElementById('canvas');
     var link = document.createElement('a');
-    link.href = dataURL;
     link.download = 'mapa.png';
-    document.body.appendChild(link);
+    link.href = canvas.toDataURL('image/png');
     link.click();
-    document.body.removeChild(link);
-}*/
+}
 
 
-let cubos=new Image();
+/*let cubos=new Image();
 cubos.src = 'images/cubos.jpg';
 cubos.addEventListener('load', function() {
     //imagem, xiniRecorte, yiniRecorte, LRecorte, Arecorte, posX, posY, Limagem, Aimagem)
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d')
     ctx.drawImage(cubos, 0, 0, 100, 100, 0, 0, 50, 50);
-});
+});*/

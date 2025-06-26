@@ -119,3 +119,22 @@ canvas{
 #botao-pdf:hover {
   background-color: #C0C0C0; 
 }
+
+#botao-limpar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dcdcdc;
+  border-radius: 30px;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#botao-limpar:hover {
+  background-color: #C0C0C0;
+}

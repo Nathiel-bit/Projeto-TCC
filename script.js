@@ -51,7 +51,7 @@ for(var x = 0; x < largura; x++){
 }
 
 // Função para desenhar o cubo no canvas
-/*window.addEventListener('mousedown', function(event) {
+window.addEventListener('mousedown', function(event) {
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
     var rect = canvas.getBoundingClientRect();
@@ -64,7 +64,7 @@ for(var x = 0; x < largura; x++){
 
     // Desenha o cubo na posição calculada
     ctx.drawImage(cubos, 0, 0, 100, 100, posX, posY, 100, 100);
-});*/
+});
 
 
 // Função para salvar o mapa em PDF
@@ -85,6 +85,19 @@ function salvarMapa() {
     link.href = canvas.toDataURL('image/png');
     link.click();
 }
+
+// Função para limpar o mapa
+// Limpa o canvas e reinicializa o array do mapa
+function limparMapa() {
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    mapa = [];
+    document.getElementById('width').value = '';
+    document.getElementById('height').value = '';
+    document.getElementById('botao-salvar').disabled = false;
+}
+
 
 
 /*let cubos=new Image();

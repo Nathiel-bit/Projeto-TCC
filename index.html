@@ -15,12 +15,7 @@
         <input type="text" id="width" placeholder="Largura">
         <p></p>
         <button onclick="gerarMapa()" id="botao-gerar">Gerar Mapa</button>
-        <p></p>
-    </div>
-
-    <div>
-        <button onclick="salvarMapa()" id="botao-salvar">Salvar em Img</button>
-        <button onclick="salvarPDF()" id="botao-pdf">Salvar em PDF</button>
+        <button onclick="salvarMapa()" id="botao-salvar">Salvar Mapa</button>
         <p></p>
     </div>
 
@@ -29,6 +24,13 @@
     <center>
     <canvas id="canvas" height="300" width="500" style="border: 1px solid #000;"></canvas>
     </center>
+
+    <div>
+      <center>
+      <button onclick="salvarPDF()" id="botao-pdf">PDF</button>
+      <button onclick="limparMapa()" id="botao-limpar">Limpar</button>
+      </center>
+    </div>
 
     <script src="script.js"></script>
 </body>

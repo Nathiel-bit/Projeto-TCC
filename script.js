@@ -108,3 +108,7 @@ cubos.addEventListener('load', function() {
     var ctx = canvas.getContext('2d')
     ctx.drawImage(cubos, 0, 0, 100, 100, 0, 0, 50, 50);
 });*/
+
+/*window.addEventListener('dragover', function(event) {
+    event.preventDefault();
+});*/

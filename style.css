@@ -138,3 +138,12 @@ canvas{
 #botao-limpar:hover {
   background-color: #C0C0C0;
 }
+
+/*#imagens-mov {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}*/

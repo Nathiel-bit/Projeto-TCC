@@ -98,17 +98,3 @@ function limparMapa() {
     document.getElementById('botao-salvar').disabled = false;
 }
 
-
-
-/*let cubos=new Image();
-cubos.src = 'images/cubos.jpg';
-cubos.addEventListener('load', function() {
-    //imagem, xiniRecorte, yiniRecorte, LRecorte, Arecorte, posX, posY, Limagem, Aimagem)
-    var canvas = document.getElementById('canvas');
-    var ctx = canvas.getContext('2d')
-    ctx.drawImage(cubos, 0, 0, 100, 100, 0, 0, 50, 50);
-});*/
-
-/*window.addEventListener('dragover', function(event) {
-    event.preventDefault();
-});*/
